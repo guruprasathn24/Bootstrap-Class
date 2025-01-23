@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Day 4</title>
+</head>
+<body>
+
+    <!-- Pagination -->
+    <div class="container mt-5 h1">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="bootstrap.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="">2</a></li>
+            <li class="page-item"><a class="page-link" href="">3</a></li>
+            <li class="page-item"><a class="page-link" href="">4</a></li>
+        </ul>
+    </div>
+
+    <!-- Pagination Active -->
+    <div class="container mt-5 h1">
+        <ul class="pagination">
+            <li class="page-item active"><a class="page-link" href="bootstrap.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="">2</a></li>
+            <li class="page-item"><a class="page-link" href="">3</a></li>
+            <li class="page-item"><a class="page-link" href="">4</a></li>
+        </ul>
+    </div>
+
+    <!-- Pagination Large -->
+    <div class="container mt-5 h1">
+        <ul class="pagination pagination-lg">
+            <li class="page-item active"><a class="page-link" href="bootstrap.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="">2</a></li>
+            <li class="page-item"><a class="page-link" href="">3</a></li>
+            <li class="page-item"><a class="page-link" href="">4</a></li>
+        </ul>
+    </div>
+
+    <!-- Pagination Small -->
+    <div class="container mt-5 h1">
+        <ul class="pagination pagination-sm">
+            <li class="page-item active"><a class="page-link" href="bootstrap.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="">2</a></li>
+            <li class="page-item"><a class="page-link" href="">3</a></li>
+            <li class="page-item"><a class="page-link" href="">4</a></li>
+        </ul>
+    </div>
+
+    <!-- Pagination Disabled -->
+    <div class="container mt-5 h1">
+        <ul class="pagination pagination-lg">
+            <li class="page-item disabled"><a class="page-link" href="bootstrap.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="">2</a></li>
+            <li class="page-item"><a class="page-link" href="">3</a></li>
+            <li class="page-item"><a class="page-link" href="">4</a></li>
+        </ul>
+    </div>
+
+    <!-- Dropdown Example 1 -->
+    <div class="container mt-5">
+        <div class="dropdown">
+            <button class="btn btn-info btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">BAT</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" >CEAT</a></li>
+                <li><a class="dropdown-item" >MRF</a></li>
+                <li><a class="dropdown-item" >GRAY NICHOLLS</a></li>
+                <li><a class="dropdown-item" >ENGLISH WILLOW</a></li>
+                <li><a class="dropdown-item" >KASHMIR WILLOW</a></li>
+            </ul>
+        </div>
+    </div>
+ 
+    <!-- Dropdown Example 2 -->
+    <div class="container mt-5">
+        <div class="dropdown">
+            <button class="btn btn-info btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">BAT</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" >CEAT</a></li>
+                <li><a class="dropdown-item inactive" >MRF</a></li>
+                <li><a class="dropdown-item active" >GRAY NICHOLLS</a></li>
+                <li><a class="dropdown-item inactive" >ENGLISH WILLOW</a></li>
+                <li><a class="dropdown-item active" >KASHMIR WILLOW</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Dropdown Example 3 -->
+    <div class="container mt-5">
+        <div class="dropdown">
+            <button class="btn btn-info btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">BAT</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">Available Bats</li>
+                <li><a class="dropdown-item" >CEAT</a></li>
+                <li><a class="dropdown-item" >MRF</a></li>
+                <li><a class="dropdown-item" >GRAY NICHOLLS</a></li>
+                <li class="dropdown-header">Unavailable</li>
+                <li><a class="dropdown-item" >ENGLISH WILLOW</a></li>
+                <li><a class="dropdown-item" >KASHMIR WILLOW</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Example 1 -->
+    <h1>Nav Bar</h1>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Address</a>
+        </li>
+    </ul>
+
+    <!-- Navigation Bar Example 2 -->
+    <ul class="nav bg-info">
+        <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Address</a>
+        </li>
+    </ul>
+
+    <!-- Navigation Bar Example 3 -->
+    <ul class="nav bg-info">
+        <li class="nav-item bg-primary">
+            <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item bg-warning">
+            <a class="nav-link" href="">About</a>
+        </li>
+        <li class="nav-item bg-success">
+            <a class="nav-link" href="">Address</a>
+        </li>
+    </ul>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
